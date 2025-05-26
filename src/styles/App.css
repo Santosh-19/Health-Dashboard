@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+main.main-dash {
+    display: flex;
+    width: 100%;
+    gap: 2em;
+}
+.dash-left {
+    width: 50%;
+}
+.dash-right {
+    width: 50%;
+    background: #f6faff;
+}
+.dash-left h1 {
+    color: #3734a1;
+}
+
+@media screen and (max-width: 992px) {
+    main.main-dash {
+        display: block;
+    } 
+    .dash-left {
+        width: 100%;
+    }
+    .dash-right {
+        width: 100%;
+    }
+}

@@ -1,0 +1,51 @@
+.schedule {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .day {
+    margin-bottom: 20px;
+  }
+  
+  .dayTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .events {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .event {
+    background-color: #dde2f8;
+    border-radius: 10px;
+    padding: 15px 20px;
+  }
+  
+  .eventInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .eventTitle {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .eventTime {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  

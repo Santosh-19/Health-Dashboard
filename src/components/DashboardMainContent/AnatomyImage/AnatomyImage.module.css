@@ -1,0 +1,23 @@
+.heart {
+    position: absolute;
+    top: 24%;
+    left: 81%;
+    width: 111px;
+    transform: translate(-50%, -50%);
+    background: #3832b2;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.leg {
+    position: absolute;
+    bottom: 22%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background: #02e2f1;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 15px;
+  }
