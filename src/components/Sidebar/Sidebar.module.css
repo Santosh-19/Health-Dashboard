@@ -4,8 +4,8 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-    z-index: 1000;
-    height: 100%;
+    height: 100vh;
+    min-height: 100%;
   }
   
   .heading {
@@ -53,9 +53,10 @@
   @media only screen and (max-width: 768px) {
     .sidebar{
       position: absolute;
-      top: 0;
+      top: 4em;
       width: 100%;
-      background-color: #f6faff63;
+      background-color: #f6fafff0;
+      z-index: 1000;
     }
   }
   
