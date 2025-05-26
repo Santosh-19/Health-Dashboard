@@ -6,7 +6,7 @@ const AnatomyImage = () => {
     <div style={{ position: "relative", textAlign: "center", width: "100%" }}>
       {/* Anatomy Image */}
       <img
-        src="public/human-body.png"
+        src="/human-body.png"
         alt="Anatomy"
         style={{ width: "100%", maxWidth: "300px", margin: "0 auto", background:"#f6faff", borderRadius:"20px"}}
       />
