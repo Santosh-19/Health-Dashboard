@@ -17,7 +17,7 @@ const Header = ({toggleSidebar}) => {
       <div className={styles.actions}>
         <div className={styles.userProfile}>
           <img
-            src="src\assets\avtar-img.jpg"
+            src="public/avtar-img.jpg"
             alt="User Avatar"
             className={styles.avatar}
           />
